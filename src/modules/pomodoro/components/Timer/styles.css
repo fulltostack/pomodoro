@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 50px 10px;
+}
+
+.digitContainer {
+  display: flex;
+}
+
+.timeContainer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.divider {
+  display: flex;
+  align-self: flex-end;
+}

@@ -1,0 +1,25 @@
+.divider {
+  width: 20px;
+  height: 100px;
+  text-align: center;
+  position: relative;
+}
+
+.topDot, .bottomDot {
+  display: block;
+  background: #323434;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  border-radius: 50%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  left: 5px;
+}
+
+.topDot {
+  top: 30px;
+}
+
+.bottomDot {
+  bottom: 30px;
+}

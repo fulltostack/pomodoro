@@ -1,0 +1,18 @@
+.container {
+  width: 500px;
+}
+
+.btns{
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  background-color: #333333;
+  color: #CCCCCC;
+}
+
+.stop {
+  margin-left: 10px;
+  margin-right: 10px;
+}

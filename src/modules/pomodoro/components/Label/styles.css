@@ -1,0 +1,15 @@
+.statRow {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.stats {
+  background-color: #333333;
+  width: 220px;
+  height: 70px;
+  border-radius: 10px;
+  color: #CCCCCC;
+  font-size: 45px;
+  text-align: center;
+}

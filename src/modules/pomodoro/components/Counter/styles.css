@@ -1,0 +1,29 @@
+.container {
+
+}
+
+.label {
+  text-align: center;
+}
+
+.counterContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.buttonWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  background-color: #333333;
+  color: #CCCCCC;
+}
+
+.valueWrapper {
+  display: flex;
+  justify-content: center;
+  height: 34px;
+  align-items: center;
+}
