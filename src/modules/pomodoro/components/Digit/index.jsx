@@ -1,7 +1,7 @@
 import * as React from 'react';
 import PropTypes from 'prop-types';
 
-const styles = require('./styles.css');
+const styles = require('./styles.module.css');
 
 const Digit = ({ value }) => (
   <div className={styles.container}>

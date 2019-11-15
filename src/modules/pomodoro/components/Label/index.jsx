@@ -6,7 +6,7 @@ import {
   SESSION_IN_PROGRESS,
 } from '../../actions/constants';
 
-const styles = require('./styles.css');
+const styles = require('./styles.module.css');
 
 const Label = ({ timerState, pomodoroState }) => {
   let string = 'pomodoro';

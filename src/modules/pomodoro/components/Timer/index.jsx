@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import Digit from '../Digit';
 import Divider from '../ClockDivider';
 
-const styles = require('./styles.css');
+const styles = require('./styles.module.css');
 
 const Timer = (props) => {
   let minutes = Math.floor(props.seconds / 60).toString();

@@ -1,7 +1,7 @@
 import * as React from 'react';
 import PropTypes from 'prop-types';
 
-const style = require('./app.css');
+import style from './app.module.css'
 
 const App = props => (
   <div className={style.mainBodyStyle} >

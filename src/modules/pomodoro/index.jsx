@@ -16,7 +16,7 @@ import {
 } from './actions';
 import { TIMER_STARTED } from './actions/constants';
 
-const styles = require('./styles.css');
+const styles = require('./styles.module.css');
 
 class Pomodoro extends React.Component {
 
@@ -32,7 +32,7 @@ class Pomodoro extends React.Component {
     }, 1000);
   }
 
-  componentWillUnMount() {
+  componentWillUnmount() {
     clearInterval(this.timer);
   }
 

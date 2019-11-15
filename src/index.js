@@ -2,7 +2,9 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
-import { Router, browserHistory } from 'react-router';
+import {
+  BrowserRouter as Router
+} from 'react-router-dom'; import createHistory from 'history/createBrowserHistory'
 import routes from './routes';
 import store from './store';
 import runRootSaga from './sagas';
@@ -11,7 +13,7 @@ runRootSaga();
 
 ReactDOM.render(
   <Provider store={store}>
-    <Router history={browserHistory}>
+    <Router history={createHistory}>
       {routes}
     </Router>
   </Provider>,
