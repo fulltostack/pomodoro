@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.15.1",
     "gh-pages": "^2.1.1",
     "react": "^16.12.0",
     "react-dev-utils": "^9.1.0",
@@ -25,7 +27,11 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": "react-app",
+    "globals":{
+      "before":true,
+      "beforeEach":true
+    }
   },
   "browserslist": {
     "production": [
@@ -37,6 +43,15 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "enzyme-to-json": "3.3.1",
+    "jest": "21.2.1"
+  },
+  "jest": {
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
     ]
   }
 }
